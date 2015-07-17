@@ -1,0 +1,140 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MAIN, App_Web_j5igmvxy" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="free css layout, old blog template, CSS, HTML" />
+<meta name="description" content="Old Blog Template - free website template provided by TemplateMo.com" />
+ 
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="css/template.css" rel="stylesheet" type="text/css" />
+
+
+<!--  Designed by w w w . t e m p l a t e m o . c o m  -->
+<link rel="stylesheet" type="text/css" href="tabcontent.css" />
+<script type="text/javascript" src="tabcontent.js">
+    /***********************************************
+    * Tab Content script v2.2- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+    ***********************************************/
+</script>
+<link href="css/multizoom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="js/multizoom.js">
+
+    // Featured Image Zoomer (w/ optional multizoom and adjustable power)- By Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    // Multi-Zoom code (c)2012 John Davenport Scheuer
+    // as first seen in http://www.dynamicdrive.com/forums/
+    // username: jscheuer1 - This Notice Must Remain for Legal Use
+    // Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+
+</script>
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function ($) {
+
+        $('#image1').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [300, 300],
+            magnifierpos: 'right',
+            cursorshade: true,
+            largeimage: 'hayden.jpg' //<-- No comma after last option!
+        })
+
+
+        $('#image2').addimagezoom() // single image zoom with default options
+
+        $('#multizoom1').addimagezoom({ // multi-zoom: options same as for previous Featured Image Zoomer's addimagezoom unless noted as '- new'
+            descArea: '#description', // description selector (optional - but required if descriptions are used) - new
+            speed: 1500, // duration of fade in for new zoomable images (in milliseconds, optional) - new
+            descpos: true, // if set to true - description position follows image position at a set distance, defaults to false (optional) - new
+            imagevertcenter: true, // zoomable image centers vertically in its container (optional) - new
+            magvertcenter: true, // magnified area centers vertically in relation to the zoomable image (optional) - new
+            zoomrange: [3, 10],
+            magnifiersize: [250, 250],
+            magnifierpos: 'right',
+            cursorshadecolor: '#fdffd5',
+            cursorshade: true //<-- No comma after last option!
+        });
+
+        $('#multizoom2').addimagezoom({ // multi-zoom: options same as for previous Featured Image Zoomer's addimagezoom unless noted as '- new'
+            descArea: '#description2', // description selector (optional - but required if descriptions are used) - new
+            disablewheel: true // even without variable zoom, mousewheel will not shift image position while mouse is over image (optional) - new
+            //^-- No comma after last option!	
+        });
+
+    })
+
+</script>
+
+<asp:ContentPlaceHolder ID="head" runat="server">
+
+</asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+	<div id="templatemo_header_panel">
+    	<div id="templatemo_title_section">
+				<h1>WATER MANAGEMENT & <br/><br/></h1><h1>TRACKING</h1>
+	</div>
+    </div> <!-- end of templatemo header panel -->
+    <div>
+
+    <div>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+    </div> <!-- end of menu -->
+    <div>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        </div>
+	<div id="templatemo_bottom_panel">
+    	<div id="templatemo_bottom_section">
+            <div class="templatemo_bottom_section_content">
+                <h3>Refrence Links</h3>
+                <ul style="color:Black">
+                    <li><a href="http://theahmedabadblog.com/category/news" style="color:Red;font-family:Arial Black;font-style:italic">NEWS</a></li>
+                    <li></li>
+                    <li><a href="http://theahmedabadblog.com/category/events" style="color:Red;font-family:Arial Black;font-style:italic">EVENTS</a></li>
+                    <li></li>
+                    <li><a href="http://theahmedabadblog.com/category/places" style="color:Red;font-family:Arial Black;font-style:italic">PLACES</a></li>
+                </ul>
+            </div>
+            <div class="templatemo_bottom_section_content">
+                
+            </div>
+            <div class="templatemo_bottom_section_content">
+                <h3>Other Links</h3>
+                 <ul style="color:Black">
+                    <li><a href="http://theahmedabadblog.com/category/general/sports" style="color:Red;font-family:Arial Black;font-style:italic">SPORTS</a></li>
+                    <li></li>
+                    <li></li>                 
+                    <li><a href="http://theahmedabadblog.com/category/general/technology" style="color:Red;font-family:Arial Black;font-style:italic">TECHNOLOGY</a></li>
+                </ul>
+            </div>
+            
+            
+  
+        </div>
+    </div>
+    
+    <div id="templatemo_footer_panel" style="background-color:Green">
+    	<div id="templatemo_footer_section">
+	     <a href="http://www.topsint.com/" style="color:Black;font-family:Arial Black">Tops Technologies pvt ltd </a> 
+            
+        </div>
+    </div>
+    </form>
+</body>
+</html>

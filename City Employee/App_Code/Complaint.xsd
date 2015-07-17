@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Complaint" targetNamespace="http://tempuri.org/Complaint.xsd" xmlns:mstns="http://tempuri.org/Complaint.xsd" xmlns="http://tempuri.org/Complaint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Complaint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Complaint" msprop:Generator_UserDSName="Complaint">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Complaint" msprop:Generator_TableClassName="ComplaintDataTable" msprop:Generator_TableVarName="tableComplaint" msprop:Generator_TablePropName="_Complaint" msprop:Generator_RowDeletingName="ComplaintRowDeleting" msprop:Generator_UserTableName="Complaint" msprop:Generator_RowChangingName="ComplaintRowChanging" msprop:Generator_RowEvHandlerName="ComplaintRowChangeEventHandler" msprop:Generator_RowDeletedName="ComplaintRowDeleted" msprop:Generator_RowEvArgName="ComplaintRowChangeEvent" msprop:Generator_RowChangedName="ComplaintRowChanged" msprop:Generator_RowClassName="ComplaintRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cmp_regunm" msprop:Generator_ColumnVarNameInTable="columncmp_regunm" msprop:Generator_ColumnPropNameInRow="cmp_regunm" msprop:Generator_ColumnPropNameInTable="cmp_regunmColumn" msprop:Generator_UserColumnName="cmp_regunm" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_cat" msprop:Generator_ColumnVarNameInTable="columncmp_cat" msprop:Generator_ColumnPropNameInRow="cmp_cat" msprop:Generator_ColumnPropNameInTable="cmp_catColumn" msprop:Generator_UserColumnName="cmp_cat" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_des" msprop:Generator_ColumnVarNameInTable="columncmp_des" msprop:Generator_ColumnPropNameInRow="cmp_des" msprop:Generator_ColumnPropNameInTable="cmp_desColumn" msprop:Generator_UserColumnName="cmp_des" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_add" msprop:Generator_ColumnVarNameInTable="columncmp_add" msprop:Generator_ColumnPropNameInRow="cmp_add" msprop:Generator_ColumnPropNameInTable="cmp_addColumn" msprop:Generator_UserColumnName="cmp_add" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_pin" msprop:Generator_ColumnVarNameInTable="columncmp_pin" msprop:Generator_ColumnPropNameInRow="cmp_pin" msprop:Generator_ColumnPropNameInTable="cmp_pinColumn" msprop:Generator_UserColumnName="cmp_pin" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_area" msprop:Generator_ColumnVarNameInTable="columncmp_area" msprop:Generator_ColumnPropNameInRow="cmp_area" msprop:Generator_ColumnPropNameInTable="cmp_areaColumn" msprop:Generator_UserColumnName="cmp_area" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_home" msprop:Generator_ColumnVarNameInTable="columncmp_home" msprop:Generator_ColumnPropNameInRow="cmp_home" msprop:Generator_ColumnPropNameInTable="cmp_homeColumn" msprop:Generator_UserColumnName="cmp_home" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_mobile" msprop:Generator_ColumnVarNameInTable="columncmp_mobile" msprop:Generator_ColumnPropNameInRow="cmp_mobile" msprop:Generator_ColumnPropNameInTable="cmp_mobileColumn" msprop:Generator_UserColumnName="cmp_mobile" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_date" msprop:Generator_ColumnVarNameInTable="columncmp_date" msprop:Generator_ColumnPropNameInRow="cmp_date" msprop:Generator_ColumnPropNameInTable="cmp_dateColumn" msprop:Generator_UserColumnName="cmp_date" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_ono" msprop:Generator_ColumnVarNameInTable="columncmp_ono" msprop:Generator_ColumnPropNameInRow="cmp_ono" msprop:Generator_ColumnPropNameInTable="cmp_onoColumn" msprop:Generator_UserColumnName="cmp_ono" type="xs:string" minOccurs="0" />
+              <xs:element name="cmp_status" msprop:Generator_ColumnVarNameInTable="columncmp_status" msprop:Generator_ColumnPropNameInRow="cmp_status" msprop:Generator_ColumnPropNameInTable="cmp_statusColumn" msprop:Generator_UserColumnName="cmp_status" type="xs:string" minOccurs="0" />
+              <xs:element name="app_add" msprop:Generator_ColumnVarNameInTable="columnapp_add" msprop:Generator_ColumnPropNameInRow="app_add" msprop:Generator_ColumnPropNameInTable="app_addColumn" msprop:Generator_UserColumnName="app_add" type="xs:string" minOccurs="0" />
+              <xs:element name="cityname" msprop:Generator_ColumnVarNameInTable="columncityname" msprop:Generator_ColumnPropNameInRow="cityname" msprop:Generator_ColumnPropNameInTable="citynameColumn" msprop:Generator_UserColumnName="cityname" type="xs:string" minOccurs="0" />
+              <xs:element name="app_email" msprop:Generator_ColumnVarNameInTable="columnapp_email" msprop:Generator_ColumnPropNameInRow="app_email" msprop:Generator_ColumnPropNameInTable="app_emailColumn" msprop:Generator_UserColumnName="app_email" type="xs:string" minOccurs="0" />
+              <xs:element name="app_home" msprop:Generator_ColumnVarNameInTable="columnapp_home" msprop:Generator_ColumnPropNameInRow="app_home" msprop:Generator_ColumnPropNameInTable="app_homeColumn" msprop:Generator_UserColumnName="app_home" type="xs:string" minOccurs="0" />
+              <xs:element name="app_mobile" msprop:Generator_ColumnVarNameInTable="columnapp_mobile" msprop:Generator_ColumnPropNameInRow="app_mobile" msprop:Generator_ColumnPropNameInTable="app_mobileColumn" msprop:Generator_UserColumnName="app_mobile" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,91 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="City_Employee_City_Emp, App_Web_x14bexz4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="free css layout, old blog template, CSS, HTML" />
+<meta name="description" content="Old Blog Template - free website template provided by TemplateMo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<!--  Designed by w w w . t e m p l a t e m o . c o m  -->
+<link rel="stylesheet" type="text/css" href="tabcontent.css" />
+<script type="text/javascript" src="tabcontent.js">
+    /***********************************************
+    * Tab Content script v2.2- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+    ***********************************************/
+</script>
+ <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+	<div id="templatemo_header_panel">
+    	<div id="templatemo_title_section">
+				<h1>WATER MANAGEMENT &<br/><br/></h1><h1>TRACKING</h1>
+	</div>
+    </div> <!-- end of templatemo header panel -->
+    
+    <div>
+    
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+<%--   <div id="templatemo_menu_panel">
+    	<div id="templatemo_menu_section">
+           <ul>
+                <li><a href="Home.aspx" class="current">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="Complaint.aspx">Complaints</a></li>  
+                <li><a href="#">Registration</a></li>
+                <li><a href="#">Feedback</a></li> 
+                <li><a href="#">About US</a></li>                     
+            </ul>  
+   		</div>
+     </div>--%>
+    </div> <!-- end of menu -->
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+	
+    <div id="templatemo_bottom_panel">
+    	<div id="templatemo_bottom_section">
+            <div class="templatemo_bottom_section_content">
+                <h3>Refrence Links</h3>
+                <ul style="color:Black">
+                    <li><a href="http://theahmedabadblog.com/category/news" style="color:Red;font-family:Arial Black;font-style:italic">NEWS</a></li>
+                    <li></li>
+                    <li><a href="http://theahmedabadblog.com/category/events" style="color:Red;font-family:Arial Black;font-style:italic">EVENTS</a></li>
+                    <li></li>
+                    <li><a href="http://theahmedabadblog.com/category/places" style="color:Red;font-family:Arial Black;font-style:italic">PLACES</a></li>
+                </ul>
+            </div>
+            <div class="templatemo_bottom_section_content">
+                
+            </div>
+            <div class="templatemo_bottom_section_content">
+                <h3>Other Links</h3>
+                 <ul style="color:Black">
+                    <li><a href="http://theahmedabadblog.com/category/general/sports" style="color:Red;font-family:Arial Black;font-style:italic">SPORTS</a></li>
+                    <li></li>
+                    <li></li>                 
+                    <li><a href="http://theahmedabadblog.com/category/general/technology" style="color:Red;font-family:Arial Black;font-style:italic">TECHNOLOGY</a></li>
+                </ul>
+            </div>
+            
+            
+  
+        </div>
+    </div>
+    
+    <div id="templatemo_footer_panel" style="background-color:Green">
+    	<div id="templatemo_footer_section">
+	     <a href="http://www.topsint.com/" style="color:Black;font-family:Arial Black">Tops Technologies pvt ltd</a> 
+            
+        </div>
+    </div>
+    </form>
+</body>
+</html>

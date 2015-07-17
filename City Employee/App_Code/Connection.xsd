@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Connection" targetNamespace="http://tempuri.org/Connection.xsd" xmlns:mstns="http://tempuri.org/Connection.xsd" xmlns="http://tempuri.org/Connection.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Connection" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Connection" msprop:Generator_UserDSName="Connection">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Connection" msprop:Generator_TableClassName="ConnectionDataTable" msprop:Generator_TableVarName="tableConnection" msprop:Generator_TablePropName="_Connection" msprop:Generator_RowDeletingName="ConnectionRowDeleting" msprop:Generator_UserTableName="Connection" msprop:Generator_RowChangingName="ConnectionRowChanging" msprop:Generator_RowEvHandlerName="ConnectionRowChangeEventHandler" msprop:Generator_RowDeletedName="ConnectionRowDeleted" msprop:Generator_RowEvArgName="ConnectionRowChangeEvent" msprop:Generator_RowChangedName="ConnectionRowChanged" msprop:Generator_RowClassName="ConnectionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="con_regunm" msprop:Generator_ColumnVarNameInTable="columncon_regunm" msprop:Generator_ColumnPropNameInRow="con_regunm" msprop:Generator_ColumnPropNameInTable="con_regunmColumn" msprop:Generator_UserColumnName="con_regunm" type="xs:string" minOccurs="0" />
+              <xs:element name="con_type" msprop:Generator_ColumnVarNameInTable="columncon_type" msprop:Generator_ColumnPropNameInRow="con_type" msprop:Generator_ColumnPropNameInTable="con_typeColumn" msprop:Generator_UserColumnName="con_type" type="xs:string" minOccurs="0" />
+              <xs:element name="con_purpose" msprop:Generator_ColumnVarNameInTable="columncon_purpose" msprop:Generator_ColumnPropNameInRow="con_purpose" msprop:Generator_ColumnPropNameInTable="con_purposeColumn" msprop:Generator_UserColumnName="con_purpose" type="xs:string" minOccurs="0" />
+              <xs:element name="con_add" msprop:Generator_ColumnVarNameInTable="columncon_add" msprop:Generator_ColumnPropNameInRow="con_add" msprop:Generator_ColumnPropNameInTable="con_addColumn" msprop:Generator_UserColumnName="con_add" type="xs:string" minOccurs="0" />
+              <xs:element name="con_pin" msprop:Generator_ColumnVarNameInTable="columncon_pin" msprop:Generator_ColumnPropNameInRow="con_pin" msprop:Generator_ColumnPropNameInTable="con_pinColumn" msprop:Generator_UserColumnName="con_pin" type="xs:string" minOccurs="0" />
+              <xs:element name="con_home" msprop:Generator_ColumnVarNameInTable="columncon_home" msprop:Generator_ColumnPropNameInRow="con_home" msprop:Generator_ColumnPropNameInTable="con_homeColumn" msprop:Generator_UserColumnName="con_home" type="xs:string" minOccurs="0" />
+              <xs:element name="con_mobile" msprop:Generator_ColumnVarNameInTable="columncon_mobile" msprop:Generator_ColumnPropNameInRow="con_mobile" msprop:Generator_ColumnPropNameInTable="con_mobileColumn" msprop:Generator_UserColumnName="con_mobile" type="xs:string" minOccurs="0" />
+              <xs:element name="con_flore" msprop:Generator_ColumnVarNameInTable="columncon_flore" msprop:Generator_ColumnPropNameInRow="con_flore" msprop:Generator_ColumnPropNameInTable="con_floreColumn" msprop:Generator_UserColumnName="con_flore" type="xs:string" minOccurs="0" />
+              <xs:element name="con_area_sq" msprop:Generator_ColumnVarNameInTable="columncon_area_sq" msprop:Generator_ColumnPropNameInRow="con_area_sq" msprop:Generator_ColumnPropNameInTable="con_area_sqColumn" msprop:Generator_UserColumnName="con_area_sq" type="xs:string" minOccurs="0" />
+              <xs:element name="con_poi" msprop:Generator_ColumnVarNameInTable="columncon_poi" msprop:Generator_ColumnPropNameInRow="con_poi" msprop:Generator_ColumnPropNameInTable="con_poiColumn" msprop:Generator_UserColumnName="con_poi" type="xs:string" minOccurs="0" />
+              <xs:element name="con_por" msprop:Generator_ColumnVarNameInTable="columncon_por" msprop:Generator_ColumnPropNameInRow="con_por" msprop:Generator_ColumnPropNameInTable="con_porColumn" msprop:Generator_UserColumnName="con_por" type="xs:string" minOccurs="0" />
+              <xs:element name="con_date" msprop:Generator_ColumnVarNameInTable="columncon_date" msprop:Generator_ColumnPropNameInRow="con_date" msprop:Generator_ColumnPropNameInTable="con_dateColumn" msprop:Generator_UserColumnName="con_date" type="xs:string" minOccurs="0" />
+              <xs:element name="con_ono" msprop:Generator_ColumnVarNameInTable="columncon_ono" msprop:Generator_ColumnPropNameInRow="con_ono" msprop:Generator_ColumnPropNameInTable="con_onoColumn" msprop:Generator_UserColumnName="con_ono" type="xs:string" minOccurs="0" />
+              <xs:element name="con_status" msprop:Generator_ColumnVarNameInTable="columncon_status" msprop:Generator_ColumnPropNameInRow="con_status" msprop:Generator_ColumnPropNameInTable="con_statusColumn" msprop:Generator_UserColumnName="con_status" type="xs:string" minOccurs="0" />
+              <xs:element name="app_add" msprop:Generator_ColumnVarNameInTable="columnapp_add" msprop:Generator_ColumnPropNameInRow="app_add" msprop:Generator_ColumnPropNameInTable="app_addColumn" msprop:Generator_UserColumnName="app_add" type="xs:string" minOccurs="0" />
+              <xs:element name="cityname" msprop:Generator_ColumnVarNameInTable="columncityname" msprop:Generator_ColumnPropNameInRow="cityname" msprop:Generator_ColumnPropNameInTable="citynameColumn" msprop:Generator_UserColumnName="cityname" type="xs:string" minOccurs="0" />
+              <xs:element name="app_email" msprop:Generator_ColumnVarNameInTable="columnapp_email" msprop:Generator_ColumnPropNameInRow="app_email" msprop:Generator_ColumnPropNameInTable="app_emailColumn" msprop:Generator_UserColumnName="app_email" type="xs:string" minOccurs="0" />
+              <xs:element name="app_home" msprop:Generator_ColumnVarNameInTable="columnapp_home" msprop:Generator_ColumnPropNameInRow="app_home" msprop:Generator_ColumnPropNameInTable="app_homeColumn" msprop:Generator_UserColumnName="app_home" type="xs:string" minOccurs="0" />
+              <xs:element name="app_mobile" msprop:Generator_ColumnVarNameInTable="columnapp_mobile" msprop:Generator_ColumnPropNameInRow="app_mobile" msprop:Generator_ColumnPropNameInTable="app_mobileColumn" msprop:Generator_UserColumnName="app_mobile" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
